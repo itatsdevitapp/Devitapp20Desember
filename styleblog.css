@@ -1,0 +1,97 @@
+@import url(//db.onlinewebfonts.com/c/63467b9cbd4a4d7eafb5e64946ecaa18?family=Maison+Neue);
+@font-face {font-family: "Maison Neue"; src: url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot"); src: url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff") format("woff"), url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.svg#Maison Neue") format("svg"); }
+
+
+.fontHeader {
+  font-family: Maison Neue Mono, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  height: auto;
+  border-radius: 5px;
+}
+
+.navHeader {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.navHeaderTitle {
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  color: #070655;
+  font-weight: 700;
+  padding: 1rem;
+  font-size: xx-large;
+}
+
+.headerBar {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.headerBarTitle {
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms ease 0s;
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  height: auto;
+  min-width: 2.5rem;
+  padding: 10px;
+  color: #070655;
+}
+
+.fontBody {
+  font-family: MaisonNeue-Book, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: justify;
+}
+
+.borderContent {
+  /* background-image: url(image.svg);
+  background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: column-reverse;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.innerBorder {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.625;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.h2Content {
+  line-height: 1.25;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.innerBorder2 {
+  font-size: 20px;
+}
+
+
